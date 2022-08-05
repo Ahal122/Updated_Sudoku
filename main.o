@@ -1,0 +1,14 @@
+#pragma once
+void createSudoku(int arr[9][9]);
+void printSudoku(int arr[9][9]);
+void shuffleArray(int arr[9][9]);
+void formatShuffle(int arr[9][9]);
+bool UsedInRow(int arr[9][9], int row, int num);
+bool UsedInCol(int arr[9][9], int col, int num);
+bool UsedInBox(int arr[9][9], int boxStartRow, int boxStartCol, int num);
+bool isSafe(int arr[9][9], int row, int col, int num);
+void initializeGrid(int arr[9][9]);
+int checkSudoku(int arr[9][9], int emptyPosition);
+bool FindUnassignedLocation(int grid[9][9], int& row, int& col);
+bool generateGrid(int grid[9][9]);
+int StarFunction(int arr[9][9]);

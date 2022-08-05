@@ -1,0 +1,87 @@
+/* 
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.img-BlankSudoku{
+    width: 650px;
+}
+
+#game {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    display: block;
+    background-color: white;
+}
+
+#grid {
+    width: 378px;
+    height: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+    border-collapse: collapse;
+}
+.cell{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.cell input {
+    margin-left: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red !important;
+}
+ */
+
+body {
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+table {
+  margin-top: 25vh;
+  margin-left: 25vw;
+  background: clear;
+  border: 2px solid #000000;
+  justify-content: center;
+}
+
+.cell input {
+  border: 1px solid red;
+  text-align: center;
+  font-size: 30px;
+  height: 80px;
+  width: 80px;
+}
+td {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  text-align: center;
+}
+td:first-child {
+  border-left: solid;
+}
+td:nth-child(3n) {
+  border-right: solid;
+}
+tr:first-child {
+  border-top: solid;
+}
+tr:nth-child(3n) td {
+  border-bottom: solid;
+}
